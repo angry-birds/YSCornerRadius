@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		195E2E5DF8A1D9B13F63CBFC /* Pods_YSCornerRadiusDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C11F36B6A1FED4C957FCDBF1 /* Pods_YSCornerRadiusDemo.framework */; };
+		7933F5E41F286B2700D06D6A /* UIButton+YSCornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 7933F5DB1F286B1600D06D6A /* UIButton+YSCornerRadius.m */; };
+		7933F5E51F286B2700D06D6A /* UIImage+YSCornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 7933F5DD1F286B1600D06D6A /* UIImage+YSCornerRadius.m */; };
+		7933F5E61F286B2700D06D6A /* UIImageView+YSCornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 7933F5DF1F286B1600D06D6A /* UIImageView+YSCornerRadius.m */; };
+		7933F5E71F286B2700D06D6A /* UILabel+YSCornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 7933F5E11F286B1600D06D6A /* UILabel+YSCornerRadius.m */; };
+		7933F5E81F286B2700D06D6A /* UIView+YSCornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 7933F5E31F286B1600D06D6A /* UIView+YSCornerRadius.m */; };
+		7933F5EF1F286D1400D06D6A /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7933F5ED1F286D1400D06D6A /* TableViewCell.m */; };
+		7933F5F01F286D1400D06D6A /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7933F5EE1F286D1400D06D6A /* TableViewCell.xib */; };
+		7933F5F11F28737C00D06D6A /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = 7933F5EA1F286CC700D06D6A /* image.png */; };
+		7933F5F21F28737C00D06D6A /* naruto.png in Resources */ = {isa = PBXBuildFile; fileRef = 7933F5EB1F286CC700D06D6A /* naruto.png */; };
+		7997A5F81F286AA800893D55 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7997A5F71F286AA800893D55 /* AppDelegate.m */; };
+		7997A5FB1F286AA800893D55 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7997A5FA1F286AA800893D55 /* ViewController.m */; };
+		7997A5FE1F286AA800893D55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7997A5FC1F286AA800893D55 /* Main.storyboard */; };
+		7997A6001F286AA800893D55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7997A5FF1F286AA800893D55 /* Assets.xcassets */; };
+		7997A6031F286AA800893D55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7997A6011F286AA800893D55 /* LaunchScreen.storyboard */; };
+		7997A6061F286AA800893D55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7997A6051F286AA800893D55 /* main.m */; };
+		7997A6101F286AA900893D55 /* YSCornerRadiusDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7997A60F1F286AA900893D55 /* YSCornerRadiusDemoTests.m */; };
+		7997A61B1F286AA900893D55 /* YSCornerRadiusDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7997A61A1F286AA900893D55 /* YSCornerRadiusDemoUITests.m */; };
+		79E793781F287E45003A76FB /* YYFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E793771F287E45003A76FB /* YYFPSLabel.m */; };
+		79E7937B1F287F23003A76FB /* YYWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E7937A1F287F23003A76FB /* YYWeakProxy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7997A60C1F286AA900893D55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7997A5EB1F286AA800893D55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7997A5F21F286AA800893D55;
+			remoteInfo = YSCornerRadiusDemo;
+		};
+		7997A6171F286AA900893D55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7997A5EB1F286AA800893D55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7997A5F21F286AA800893D55;
+			remoteInfo = YSCornerRadiusDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4E29415D45E6CBF1A58E1475 /* Pods-YSCornerRadiusDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YSCornerRadiusDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YSCornerRadiusDemo/Pods-YSCornerRadiusDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		7933F5DA1F286B1600D06D6A /* UIButton+YSCornerRadius.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+YSCornerRadius.h"; sourceTree = "<group>"; };
+		7933F5DB1F286B1600D06D6A /* UIButton+YSCornerRadius.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+YSCornerRadius.m"; sourceTree = "<group>"; };
+		7933F5DC1F286B1600D06D6A /* UIImage+YSCornerRadius.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+YSCornerRadius.h"; sourceTree = "<group>"; };
+		7933F5DD1F286B1600D06D6A /* UIImage+YSCornerRadius.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+YSCornerRadius.m"; sourceTree = "<group>"; };
+		7933F5DE1F286B1600D06D6A /* UIImageView+YSCornerRadius.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+YSCornerRadius.h"; sourceTree = "<group>"; };
+		7933F5DF1F286B1600D06D6A /* UIImageView+YSCornerRadius.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+YSCornerRadius.m"; sourceTree = "<group>"; };
+		7933F5E01F286B1600D06D6A /* UILabel+YSCornerRadius.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+YSCornerRadius.h"; sourceTree = "<group>"; };
+		7933F5E11F286B1600D06D6A /* UILabel+YSCornerRadius.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+YSCornerRadius.m"; sourceTree = "<group>"; };
+		7933F5E21F286B1600D06D6A /* UIView+YSCornerRadius.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+YSCornerRadius.h"; sourceTree = "<group>"; };
+		7933F5E31F286B1600D06D6A /* UIView+YSCornerRadius.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+YSCornerRadius.m"; sourceTree = "<group>"; };
+		7933F5EA1F286CC700D06D6A /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
+		7933F5EB1F286CC700D06D6A /* naruto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = naruto.png; sourceTree = "<group>"; };
+		7933F5EC1F286D1400D06D6A /* TableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		7933F5ED1F286D1400D06D6A /* TableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		7933F5EE1F286D1400D06D6A /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		7997A5F31F286AA800893D55 /* YSCornerRadiusDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YSCornerRadiusDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7997A5F61F286AA800893D55 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7997A5F71F286AA800893D55 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7997A5F91F286AA800893D55 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7997A5FA1F286AA800893D55 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7997A5FD1F286AA800893D55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7997A5FF1F286AA800893D55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7997A6021F286AA800893D55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7997A6041F286AA800893D55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7997A6051F286AA800893D55 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7997A60B1F286AA800893D55 /* YSCornerRadiusDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YSCornerRadiusDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7997A60F1F286AA900893D55 /* YSCornerRadiusDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YSCornerRadiusDemoTests.m; sourceTree = "<group>"; };
+		7997A6111F286AA900893D55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7997A6161F286AA900893D55 /* YSCornerRadiusDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YSCornerRadiusDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7997A61A1F286AA900893D55 /* YSCornerRadiusDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YSCornerRadiusDemoUITests.m; sourceTree = "<group>"; };
+		7997A61C1F286AA900893D55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79E793761F287E44003A76FB /* YYFPSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYFPSLabel.h; sourceTree = "<group>"; };
+		79E793771F287E45003A76FB /* YYFPSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYFPSLabel.m; sourceTree = "<group>"; };
+		79E793791F287F23003A76FB /* YYWeakProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYWeakProxy.h; sourceTree = "<group>"; };
+		79E7937A1F287F23003A76FB /* YYWeakProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYWeakProxy.m; sourceTree = "<group>"; };
+		B67E7A947A35D5432B4A97EA /* Pods-YSCornerRadiusDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YSCornerRadiusDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-YSCornerRadiusDemo/Pods-YSCornerRadiusDemo.release.xcconfig"; sourceTree = "<group>"; };
+		C11F36B6A1FED4C957FCDBF1 /* Pods_YSCornerRadiusDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YSCornerRadiusDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7997A5F01F286AA800893D55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				195E2E5DF8A1D9B13F63CBFC /* Pods_YSCornerRadiusDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7997A6081F286AA800893D55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7997A6131F286AA900893D55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7933F5D91F286B1600D06D6A /* YSCornerRadius */ = {
+			isa = PBXGroup;
+			children = (
+				7933F5DA1F286B1600D06D6A /* UIButton+YSCornerRadius.h */,
+				7933F5DB1F286B1600D06D6A /* UIButton+YSCornerRadius.m */,
+				7933F5DC1F286B1600D06D6A /* UIImage+YSCornerRadius.h */,
+				7933F5DD1F286B1600D06D6A /* UIImage+YSCornerRadius.m */,
+				7933F5DE1F286B1600D06D6A /* UIImageView+YSCornerRadius.h */,
+				7933F5DF1F286B1600D06D6A /* UIImageView+YSCornerRadius.m */,
+				7933F5E01F286B1600D06D6A /* UILabel+YSCornerRadius.h */,
+				7933F5E11F286B1600D06D6A /* UILabel+YSCornerRadius.m */,
+				7933F5E21F286B1600D06D6A /* UIView+YSCornerRadius.h */,
+				7933F5E31F286B1600D06D6A /* UIView+YSCornerRadius.m */,
+			);
+			path = YSCornerRadius;
+			sourceTree = "<group>";
+		};
+		7933F5E91F286CC700D06D6A /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				7933F5EA1F286CC700D06D6A /* image.png */,
+				7933F5EB1F286CC700D06D6A /* naruto.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		7997A5EA1F286AA800893D55 = {
+			isa = PBXGroup;
+			children = (
+				7933F5D91F286B1600D06D6A /* YSCornerRadius */,
+				7933F5E91F286CC700D06D6A /* Resource */,
+				7997A5F51F286AA800893D55 /* YSCornerRadiusDemo */,
+				7997A60E1F286AA900893D55 /* YSCornerRadiusDemoTests */,
+				7997A6191F286AA900893D55 /* YSCornerRadiusDemoUITests */,
+				7997A5F41F286AA800893D55 /* Products */,
+				CC27459C1E3477252EA62E6B /* Pods */,
+				D1260E127BF46C55BDB9238F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7997A5F41F286AA800893D55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7997A5F31F286AA800893D55 /* YSCornerRadiusDemo.app */,
+				7997A60B1F286AA800893D55 /* YSCornerRadiusDemoTests.xctest */,
+				7997A6161F286AA900893D55 /* YSCornerRadiusDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7997A5F51F286AA800893D55 /* YSCornerRadiusDemo */ = {
+			isa = PBXGroup;
+			children = (
+				79E793791F287F23003A76FB /* YYWeakProxy.h */,
+				79E7937A1F287F23003A76FB /* YYWeakProxy.m */,
+				79E793761F287E44003A76FB /* YYFPSLabel.h */,
+				79E793771F287E45003A76FB /* YYFPSLabel.m */,
+				7997A5F61F286AA800893D55 /* AppDelegate.h */,
+				7997A5F71F286AA800893D55 /* AppDelegate.m */,
+				7997A5F91F286AA800893D55 /* ViewController.h */,
+				7997A5FA1F286AA800893D55 /* ViewController.m */,
+				7933F5EC1F286D1400D06D6A /* TableViewCell.h */,
+				7933F5ED1F286D1400D06D6A /* TableViewCell.m */,
+				7933F5EE1F286D1400D06D6A /* TableViewCell.xib */,
+				7997A5FC1F286AA800893D55 /* Main.storyboard */,
+				7997A5FF1F286AA800893D55 /* Assets.xcassets */,
+				7997A6011F286AA800893D55 /* LaunchScreen.storyboard */,
+				7997A6041F286AA800893D55 /* Info.plist */,
+				7997A6051F286AA800893D55 /* main.m */,
+			);
+			path = YSCornerRadiusDemo;
+			sourceTree = "<group>";
+		};
+		7997A60E1F286AA900893D55 /* YSCornerRadiusDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				7997A60F1F286AA900893D55 /* YSCornerRadiusDemoTests.m */,
+				7997A6111F286AA900893D55 /* Info.plist */,
+			);
+			path = YSCornerRadiusDemoTests;
+			sourceTree = "<group>";
+		};
+		7997A6191F286AA900893D55 /* YSCornerRadiusDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7997A61A1F286AA900893D55 /* YSCornerRadiusDemoUITests.m */,
+				7997A61C1F286AA900893D55 /* Info.plist */,
+			);
+			path = YSCornerRadiusDemoUITests;
+			sourceTree = "<group>";
+		};
+		CC27459C1E3477252EA62E6B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4E29415D45E6CBF1A58E1475 /* Pods-YSCornerRadiusDemo.debug.xcconfig */,
+				B67E7A947A35D5432B4A97EA /* Pods-YSCornerRadiusDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D1260E127BF46C55BDB9238F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C11F36B6A1FED4C957FCDBF1 /* Pods_YSCornerRadiusDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7997A5F21F286AA800893D55 /* YSCornerRadiusDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7997A61F1F286AA900893D55 /* Build configuration list for PBXNativeTarget "YSCornerRadiusDemo" */;
+			buildPhases = (
+				3E1821C73CFB3628BF2161C5 /* [CP] Check Pods Manifest.lock */,
+				7997A5EF1F286AA800893D55 /* Sources */,
+				7997A5F01F286AA800893D55 /* Frameworks */,
+				7997A5F11F286AA800893D55 /* Resources */,
+				4143D1700C1CABE4CA767CDA /* [CP] Embed Pods Frameworks */,
+				50512142D049DEEC42D2EBE7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YSCornerRadiusDemo;
+			productName = YSCornerRadiusDemo;
+			productReference = 7997A5F31F286AA800893D55 /* YSCornerRadiusDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7997A60A1F286AA800893D55 /* YSCornerRadiusDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7997A6221F286AA900893D55 /* Build configuration list for PBXNativeTarget "YSCornerRadiusDemoTests" */;
+			buildPhases = (
+				7997A6071F286AA800893D55 /* Sources */,
+				7997A6081F286AA800893D55 /* Frameworks */,
+				7997A6091F286AA800893D55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7997A60D1F286AA900893D55 /* PBXTargetDependency */,
+			);
+			name = YSCornerRadiusDemoTests;
+			productName = YSCornerRadiusDemoTests;
+			productReference = 7997A60B1F286AA800893D55 /* YSCornerRadiusDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7997A6151F286AA900893D55 /* YSCornerRadiusDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7997A6251F286AA900893D55 /* Build configuration list for PBXNativeTarget "YSCornerRadiusDemoUITests" */;
+			buildPhases = (
+				7997A6121F286AA900893D55 /* Sources */,
+				7997A6131F286AA900893D55 /* Frameworks */,
+				7997A6141F286AA900893D55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7997A6181F286AA900893D55 /* PBXTargetDependency */,
+			);
+			name = YSCornerRadiusDemoUITests;
+			productName = YSCornerRadiusDemoUITests;
+			productReference = 7997A6161F286AA900893D55 /* YSCornerRadiusDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7997A5EB1F286AA800893D55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = nil;
+				TargetAttributes = {
+					7997A5F21F286AA800893D55 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					7997A60A1F286AA800893D55 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 7997A5F21F286AA800893D55;
+					};
+					7997A6151F286AA900893D55 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 7997A5F21F286AA800893D55;
+					};
+				};
+			};
+			buildConfigurationList = 7997A5EE1F286AA800893D55 /* Build configuration list for PBXProject "YSCornerRadiusDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7997A5EA1F286AA800893D55;
+			productRefGroup = 7997A5F41F286AA800893D55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7997A5F21F286AA800893D55 /* YSCornerRadiusDemo */,
+				7997A60A1F286AA800893D55 /* YSCornerRadiusDemoTests */,
+				7997A6151F286AA900893D55 /* YSCornerRadiusDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7997A5F11F286AA800893D55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7933F5F11F28737C00D06D6A /* image.png in Resources */,
+				7933F5F21F28737C00D06D6A /* naruto.png in Resources */,
+				7997A6031F286AA800893D55 /* LaunchScreen.storyboard in Resources */,
+				7933F5F01F286D1400D06D6A /* TableViewCell.xib in Resources */,
+				7997A6001F286AA800893D55 /* Assets.xcassets in Resources */,
+				7997A5FE1F286AA800893D55 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7997A6091F286AA800893D55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7997A6141F286AA900893D55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3E1821C73CFB3628BF2161C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4143D1700C1CABE4CA767CDA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YSCornerRadiusDemo/Pods-YSCornerRadiusDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50512142D049DEEC42D2EBE7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YSCornerRadiusDemo/Pods-YSCornerRadiusDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7997A5EF1F286AA800893D55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79E793781F287E45003A76FB /* YYFPSLabel.m in Sources */,
+				7933F5E41F286B2700D06D6A /* UIButton+YSCornerRadius.m in Sources */,
+				79E7937B1F287F23003A76FB /* YYWeakProxy.m in Sources */,
+				7933F5E51F286B2700D06D6A /* UIImage+YSCornerRadius.m in Sources */,
+				7933F5E61F286B2700D06D6A /* UIImageView+YSCornerRadius.m in Sources */,
+				7933F5E71F286B2700D06D6A /* UILabel+YSCornerRadius.m in Sources */,
+				7933F5EF1F286D1400D06D6A /* TableViewCell.m in Sources */,
+				7933F5E81F286B2700D06D6A /* UIView+YSCornerRadius.m in Sources */,
+				7997A5FB1F286AA800893D55 /* ViewController.m in Sources */,
+				7997A6061F286AA800893D55 /* main.m in Sources */,
+				7997A5F81F286AA800893D55 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7997A6071F286AA800893D55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7997A6101F286AA900893D55 /* YSCornerRadiusDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7997A6121F286AA900893D55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7997A61B1F286AA900893D55 /* YSCornerRadiusDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7997A60D1F286AA900893D55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7997A5F21F286AA800893D55 /* YSCornerRadiusDemo */;
+			targetProxy = 7997A60C1F286AA900893D55 /* PBXContainerItemProxy */;
+		};
+		7997A6181F286AA900893D55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7997A5F21F286AA800893D55 /* YSCornerRadiusDemo */;
+			targetProxy = 7997A6171F286AA900893D55 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7997A5FC1F286AA800893D55 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7997A5FD1F286AA800893D55 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7997A6011F286AA800893D55 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7997A6021F286AA800893D55 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7997A61D1F286AA900893D55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7997A61E1F286AA900893D55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7997A6201F286AA900893D55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E29415D45E6CBF1A58E1475 /* Pods-YSCornerRadiusDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KQXZG5QYAD;
+				INFOPLIST_FILE = YSCornerRadiusDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cn.ys.YSCornerRadiusDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
+			};
+			name = Debug;
+		};
+		7997A6211F286AA900893D55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B67E7A947A35D5432B4A97EA /* Pods-YSCornerRadiusDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KQXZG5QYAD;
+				INFOPLIST_FILE = YSCornerRadiusDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cn.ys.YSCornerRadiusDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
+			};
+			name = Release;
+		};
+		7997A6231F286AA900893D55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = KQXZG5QYAD;
+				INFOPLIST_FILE = YSCornerRadiusDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cn.ys.YSCornerRadiusDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YSCornerRadiusDemo.app/YSCornerRadiusDemo";
+			};
+			name = Debug;
+		};
+		7997A6241F286AA900893D55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = KQXZG5QYAD;
+				INFOPLIST_FILE = YSCornerRadiusDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cn.ys.YSCornerRadiusDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YSCornerRadiusDemo.app/YSCornerRadiusDemo";
+			};
+			name = Release;
+		};
+		7997A6261F286AA900893D55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = KQXZG5QYAD;
+				INFOPLIST_FILE = YSCornerRadiusDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cn.ys.YSCornerRadiusDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YSCornerRadiusDemo;
+			};
+			name = Debug;
+		};
+		7997A6271F286AA900893D55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = KQXZG5QYAD;
+				INFOPLIST_FILE = YSCornerRadiusDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cn.ys.YSCornerRadiusDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YSCornerRadiusDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7997A5EE1F286AA800893D55 /* Build configuration list for PBXProject "YSCornerRadiusDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7997A61D1F286AA900893D55 /* Debug */,
+				7997A61E1F286AA900893D55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7997A61F1F286AA900893D55 /* Build configuration list for PBXNativeTarget "YSCornerRadiusDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7997A6201F286AA900893D55 /* Debug */,
+				7997A6211F286AA900893D55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7997A6221F286AA900893D55 /* Build configuration list for PBXNativeTarget "YSCornerRadiusDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7997A6231F286AA900893D55 /* Debug */,
+				7997A6241F286AA900893D55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7997A6251F286AA900893D55 /* Build configuration list for PBXNativeTarget "YSCornerRadiusDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7997A6261F286AA900893D55 /* Debug */,
+				7997A6271F286AA900893D55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7997A5EB1F286AA800893D55 /* Project object */;
+}

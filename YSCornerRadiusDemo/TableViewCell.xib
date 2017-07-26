@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="50" id="KGk-i7-Jjw" customClass="TableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="329" height="53"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="329" height="52"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Jl-uI-qHS">
+                        <rect key="frame" x="0.0" y="0.0" width="329" height="52"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tAI-Ki-XNK">
+                                <rect key="frame" x="16" y="8" width="62" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="tAI-Ki-XNK" secondAttribute="height" multiplier="600:343" id="wwG-0E-zpg"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kxp-ly-Onp">
+                                <rect key="frame" x="165" y="26" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OmS-wE-MVh">
+                                <rect key="frame" x="251" y="8" width="62" height="36"/>
+                                <state key="normal" image="image.png"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="tAI-Ki-XNK" firstAttribute="top" secondItem="9Jl-uI-qHS" secondAttribute="top" constant="8" id="1oY-IT-YnS"/>
+                            <constraint firstAttribute="bottom" secondItem="OmS-wE-MVh" secondAttribute="bottom" constant="8" id="2Dq-dQ-SWX"/>
+                            <constraint firstItem="tAI-Ki-XNK" firstAttribute="leading" secondItem="9Jl-uI-qHS" secondAttribute="leading" constant="16" id="82I-mU-GQM"/>
+                            <constraint firstItem="OmS-wE-MVh" firstAttribute="width" secondItem="tAI-Ki-XNK" secondAttribute="width" id="KYb-rp-x10"/>
+                            <constraint firstItem="Kxp-ly-Onp" firstAttribute="centerY" secondItem="9Jl-uI-qHS" secondAttribute="centerY" id="MX6-a8-jnv"/>
+                            <constraint firstItem="Kxp-ly-Onp" firstAttribute="centerX" secondItem="9Jl-uI-qHS" secondAttribute="centerX" id="PK2-ac-Gbj"/>
+                            <constraint firstAttribute="trailing" secondItem="OmS-wE-MVh" secondAttribute="trailing" constant="16" id="Wyr-AU-kkg"/>
+                            <constraint firstAttribute="bottom" secondItem="tAI-Ki-XNK" secondAttribute="bottom" constant="8" id="ZCU-j7-M35"/>
+                            <constraint firstItem="OmS-wE-MVh" firstAttribute="top" secondItem="9Jl-uI-qHS" secondAttribute="top" constant="8" id="dQX-Z0-PbT"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="9Jl-uI-qHS" secondAttribute="trailing" id="D7S-Ta-bwn"/>
+                    <constraint firstItem="9Jl-uI-qHS" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="eNy-Bu-fBo"/>
+                    <constraint firstAttribute="bottom" secondItem="9Jl-uI-qHS" secondAttribute="bottom" id="scM-wX-TJv"/>
+                    <constraint firstItem="9Jl-uI-qHS" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="vPL-7p-jmI"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="button" destination="OmS-wE-MVh" id="DnJ-JH-Xfi"/>
+                <outlet property="label" destination="Kxp-ly-Onp" id="a2N-q2-PQv"/>
+                <outlet property="leftImageView" destination="tAI-Ki-XNK" id="KfB-Bo-gTd"/>
+                <outlet property="view" destination="9Jl-uI-qHS" id="KVT-AW-Wrz"/>
+            </connections>
+            <point key="canvasLocation" x="-97" y="43"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="image.png" width="600" height="343"/>
+    </resources>
+</document>
